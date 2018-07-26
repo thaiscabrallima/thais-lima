@@ -6,7 +6,12 @@
     <title>Thaís Lima</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
 </head>
 <body>
     <a href="index.html" id="main-link"></a>
@@ -30,11 +35,18 @@
 
     <div class="main-content">
             <article>
-                <!-- Title -->
-                <section>
-                    <h1 class="title-1">Thaís Cabral</h1>
-                    <h2 class="title-2">Web Developer and Journalist</h2>
-                </section>
+                <h1 class="main-title">Send me a message</h1>
+                    <div class="contactInfo">
+                        <form id="contactfrm">
+                            <p>First Name: <input type="text" name="fname"></p>
+                            <p>Last Name: <input type="text" name="lname"></p>
+                            <p>E-mail: <input type="text" name="email"></p>
+                            <p>Message: <input type="text" name="message"></p>
+                        </form>
+                    </div>
+                     <div class="submitButton">
+                        <input id="button" type="button" onclick="frmfunction()" value="Submit";>
+                    </div>
             </article>
     
             <aside>

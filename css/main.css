@@ -51,7 +51,7 @@ aside {
   color: rgb(88, 88, 88);
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 400px) {
   .row {
       display: flex;
       align-items: center;
@@ -59,17 +59,21 @@ aside {
 
   .col-1-of-3 {
       width: 33%;
-      margin-right: 30px;
-      margin: 0px auto;
+      margin-left: 20px;
+      margin-top: 30px;
+      text-align: center;
   }
   .col-2-of-3 {
       width: 33%;
-      margin-right: 30px;
-      margin: 0px auto;
+      margin-left: 20px;
+      margin-top: 30px;
+      text-align: center; 
   }
   .col-3-of-3 {
       width: 33%;
-      margin: 0px auto;
+      margin-left: 20px;
+      margin-top: 30px;
+      text-align: center;
   }
   /* main menu */
   ul.nav li {
@@ -99,21 +103,6 @@ aside {
     padding: 30px;
   }
 
-  .row-2 {
-    display: flex;
-  }
-
-.row2-col-1-of-2 {
-    width: 50%;
-    margin-top: 50px;
-    text-align: center;
-}
-.row2-col-2-of-2 {
-    width: 50%;
-    margin-top: 50px;
-    text-align: center;
-}
-
 /* footer */
 footer.foot-page {
   background-color: black;
@@ -125,4 +114,4 @@ footer.foot-page {
   color: lightgrey;
   font-weight: bold;
   padding: 10px;
-}
+}}
