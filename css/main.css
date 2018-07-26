@@ -6,38 +6,14 @@ body {
   background-color: lightgray;
 }
 
-.top {
-  display: flex;
+a#main-link {
+  display: block;
   max-width: 600px;
+  height: 160px;
   margin: 0 auto;
-}
-
-/* main menu */
-ul.nav li {
-  display: inline;
-  background-color: black;
-}
-
-.nav {
-  padding: 30px;
-  background-color: black;
-  text-align: center;
-}
-
-.link {
-  padding: 30px;
-  color: white;
-  border-radius: 5px;
-  text-decoration-line: none;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 14px;
-  background-color: black;
-  transition: .5s;
-}
-
-.link:hover {
-  background-color: grey;
-  padding: 30px;
+  background-image: url("../img/logo-thais.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* structure */
@@ -75,23 +51,67 @@ aside {
   color: rgb(88, 88, 88);
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
   .row {
       display: flex;
       align-items: center;
-  }
+    }
 
   .col-1-of-3 {
       width: 33%;
       margin-right: 30px;
+      margin: 0px auto;
   }
   .col-2-of-3 {
       width: 33%;
       margin-right: 30px;
+      margin: 0px auto;
   }
   .col-3-of-3 {
       width: 33%;
+      margin: 0px auto;
   }
+  /* main menu */
+  ul.nav li {
+    display: inline;
+    background-color: black;
+  }
+
+  .nav {
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+  }
+
+  .link {
+    padding: 30px;
+    color: white;
+    border-radius: 5px;
+    text-decoration-line: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    background-color: black;
+    transition: .5s;
+  }
+
+  .link:hover {
+    background-color: grey;
+    padding: 30px;
+  }
+
+  .row-2 {
+    display: flex;
+  }
+
+.row2-col-1-of-2 {
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+.row2-col-2-of-2 {
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
 }
 
 /* footer */

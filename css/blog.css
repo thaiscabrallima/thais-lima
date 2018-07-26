@@ -1,0 +1,40 @@
+.blog-title {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+}
+
+.blog-text {
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.read-more {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    display: block;
+    max-width: 120px;
+}
+
+.read-more:hover {
+    background-color:gray;
+    color: black;
+}
+
+.is-hidden {
+    opacity: 0;
+}
