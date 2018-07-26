@@ -1,0 +1,36 @@
+.main-title {
+    padding: 10px 10px 2px 10px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.informationForm {
+    align-content: center;
+    margin: 0 auto;
+}
+
+.contactInfo {
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.contactInfo, p {
+    padding-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#button {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    display: block;
+    max-width: 120px;
+}
