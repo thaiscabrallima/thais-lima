@@ -6,6 +6,34 @@ body {
   background-color: lightgray;
 }
 
+/* main menu */
+ul.nav li {
+  background-color: black;
+}
+
+.nav {
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+}
+
+.link {
+  display: block;
+  padding: 30px;
+  color: white;
+  border-radius: 5px;
+  text-decoration-line: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  background-color: black;
+  transition: .5s;
+}
+
+.link:hover {
+  background-color: grey;
+  padding: 30px;
+}
+
 a#main-link {
   display: block;
   max-width: 600px;
@@ -51,7 +79,40 @@ aside {
   color: rgb(88, 88, 88);
 }
 
-@media all and (min-width: 400px) {
+row {
+  align-items: center;
+}
+
+.col-1-of-3 {
+  margin-left: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+.col-2-of-3 {
+  margin-left: 20px;
+  margin-top: 30px;
+  text-align: center; 
+}
+.col-3-of-3 {
+  margin-left: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* footer */
+footer.foot-page {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: lightgrey;
+  font-weight: bold;
+  padding: 10px;
+}
+
+@media all and (min-width: 600px) {
   .row {
       display: flex;
       align-items: center;
@@ -75,43 +136,18 @@ aside {
       margin-top: 30px;
       text-align: center;
   }
+
   /* main menu */
-  ul.nav li {
-    display: inline;
-    background-color: black;
-  }
+ul.nav li {
+  display: inline;
+}
 
-  .nav {
-    padding: 30px;
-    background-color: black;
-    text-align: center;
-  }
+.link {
+  display: inline;
+}
 
-  .link {
-    padding: 30px;
-    color: white;
-    border-radius: 5px;
-    text-decoration-line: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
-    background-color: black;
-    transition: .5s;
-  }
-
-  .link:hover {
-    background-color: grey;
-    padding: 30px;
-  }
-
-/* footer */
-footer.foot-page {
-  background-color: black;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  color: lightgrey;
-  font-weight: bold;
-  padding: 10px;
-}}
+.link:hover {
+  background-color: grey;
+  padding: 30px;
+}
+}
